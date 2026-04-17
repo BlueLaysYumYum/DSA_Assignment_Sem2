@@ -3,14 +3,11 @@
 void Quicksort(int A[],int low,int high){
     int temp,i,j,p=A[(low+high)/2],l=low,h=high;;
     while (l<=h){
-        printf("1");
        while(A[l]<p){
         l++;
-        printf("2");
        }
        while(p<A[h]){
         h--;
-        printf("3");
        }
        if(l<=h){
         temp=A[l];
